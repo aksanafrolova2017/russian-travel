@@ -1,0 +1,33 @@
+.place__website{
+    
+    align-self: end;
+}
+
+@media screen and (min-width: 1280px) {
+    .place__website {
+       
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .place__website {
+       
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .place__website {
+        
+        margin-bottom: 48px;
+    }
+}
+
+@media screen  and (max-width: 767px){
+   .place__website {
+        
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 32px;
+   }
