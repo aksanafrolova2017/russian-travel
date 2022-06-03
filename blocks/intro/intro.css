@@ -1,37 +1,35 @@
 .intro {
-  display: flex; 
+  display: flex;
   flex-direction: column;
-    
+  margin: 92px 0;
+  padding: 0 100px;
+  width: 75%;
 }
 
-@media screen and (min-width: 1280px) {
-    .intro {
-        margin-bottom: 92px;
-        margin-top: 92px;
-        margin-left: 100px;
-        margin-right: 100px;
-    }
+@media screen and (max-width: 1279px) {
+  .intro {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .intro {
-        width: 75%;
-        margin-bottom: 92px;
-        margin-top: 92px;
-    }
+@media screen and (max-width: 1023px) {
+  .intro {
+    width: 100%;
+  }
 }
 
-@media screen and (min-width: 768px) and (max-width:1023px) {
-    .intro {
-        
-        margin-bottom: 88px;
-        margin-top: 88px;
-    }
+@media screen and (max-width: 767px) {
+  .intro {
+    margin-bottom: 88px;
+    margin-top: 88px;
+  }
 }
 
-@media screen  and (max-width: 767px){
-   .intro {
-        
-        margin-bottom: 64px;
-        margin-top: 64px;
-   }
+@media screen and (max-width: 219px) {
+  .intro {
+    margin-bottom: 64px;
+    margin-top: 64px;
+  }
+}

@@ -1,29 +1,22 @@
 .place__text {
     display: flex;
     flex-direction: column;
+    gap: 26px;
 }
 
-
-
-@media screen and (min-width: 1280px) {
-    .place__text {
-        gap: 26px;
-    }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1023px) {
     .place__text  {
         gap: 27px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width:1023px) {
+@media screen and (max-width:767px) {
     .place__text  {
         gap: 25px;
     }
 }
 
-@media screen  and (max-width: 767px){
+@media screen  and (max-width: 319px){
      .place__text {
        gap: 25px;
    }

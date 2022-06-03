@@ -1,43 +1,19 @@
 .place__paragraph {
-grid-column: 2;
-color: #FFFFFF;
+  grid-column: 2;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
 }
 
-
-@media screen and (min-width: 1280px) {
-    .place__paragraph {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 163%;
-        width: 484px;
-        
-        
-    }
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .place__paragraph {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 163%;
-        width: 456px;
-       /* margin: 48px 48px auto 32px;*/
-    }
+@media screen and (max-width: 319px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
 }
-
-@media screen and (min-width: 768px) and (max-width:1023px) {
-    .place__paragraph{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 163%;
-        width: 352px;
-    }
-}
-
-@media screen  and (max-width: 767px){
-   .place__paragraph {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 163%;
-        width: 288px;
-   }

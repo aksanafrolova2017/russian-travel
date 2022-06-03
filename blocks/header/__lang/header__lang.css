@@ -1,6 +1,5 @@
 .header__lang {
     display: flex; 
-    /* align-self: flex-end;  */
     list-style-type: none;
     gap: 18px;
 }

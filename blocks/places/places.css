@@ -3,31 +3,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 0 100px;
 }
-
-/* @media screen and (min-width: 1280px) {
-    .places {
-        max-width: 984px;
-        gap: 80px;
-    }
+@media screen and (max-width: 1278px) {
+  .places {
+    padding: 0;
+  }
 }
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .places {
-        max-width:928px;
-        gap: 80px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width:1023px) {
-    .places {
-        max-width: 720px;
-        gap: 73px;
-    }
-}
-
-@media screen  and (max-width: 767px){
-   .places {
-       max-width: 320px;
-       gap: 50px;
-   } */
