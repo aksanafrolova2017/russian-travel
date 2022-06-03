@@ -15,7 +15,7 @@ margin-right: 18px;
     
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
     .footer__link {
         font-size: 16px;
         line-height: 18px;
@@ -24,11 +24,11 @@ margin-right: 18px;
     }
 }
 
-@media screen  and (max-width: 319px){
+@media screen  and (max-width: 767px){
    .footer__link {
     font-size: 24px;
     line-height: 24px;
     margin-right: 0;
     margin-bottom: 32px;
-    
    }
+ }

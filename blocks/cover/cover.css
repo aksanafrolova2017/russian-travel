@@ -9,9 +9,9 @@
   -webkit-background-size: cover;
   background-position: center;
   position: relative;
-  aspect-ratio: 16 / 10;
   margin-top: 92px;
   margin-bottom: 92px;
+  min-height: 740px;
 }
 .cover::before {
   content: "";
@@ -33,6 +33,7 @@
   .cover {
     margin-left: -48px;
     margin-right: -48px;
+    min-height: 640px;
   }
 }
 
@@ -40,9 +41,9 @@
   .cover {
     margin-top: 90px;
     margin-bottom: 88px;
-
     margin-left: -24px;
     margin-right: -24px;
+    min-height: 480px;
   }
 }
 
@@ -52,7 +53,7 @@
     margin-bottom: 64px;
     margin-left: -16px;
     margin-right: -16px;
-    grid-gap: 16px;
     padding: 0 16px;
+    min-height: 200px;
   }
 }
