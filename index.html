@@ -11,8 +11,17 @@
     <header class="header">
       <div class="header__logo"></div>
       <ul class="header__lang">
-        <li><a href="#" target="_self" class="header__lang-link"><u>Ru</u></a></li>
-        <li><a href="#" target="_self" class="header__lang-link">En</a></li>
+        <li>
+          <a
+            href="#"
+            target="_self"
+            class="header__lang-link header__lang-link_active"
+            >Ru</a
+          >
+        </li>
+        <li>
+          <a href="#" target="_self" class="header__lang-link">En</a>
+        </li>
       </ul>
     </header>
     <main class="main">
@@ -43,8 +52,14 @@
         </p>
         <ul class="intro__list">
           <li><span class="intro__span">Часовых поясов</span> 11</li>
-          <li><span class="intro__span">Объектов природного наследия ЮНЕСКО</span>12</li>
-          <li><span class="intro__span">Объектов культурного наследия ЮНЕСКО</span>16</li>
+          <li>
+            <span class="intro__span">Объектов природного наследия ЮНЕСКО</span
+            >12
+          </li>
+          <li>
+            <span class="intro__span">Объектов культурного наследия ЮНЕСКО</span
+            >16
+          </li>
           <li><span class="intro__span">Природных заповедников</span> 105</li>
           <li><span class="intro__span">Аэропортов</span> 241</li>
         </ul>
@@ -156,7 +171,7 @@
               rel="noopener"
               class="place__link"
               >National Geographic
-              </a>            
+            </a>
           </div>
           <img
             src="./sprint-3-images/place-kolsky.jpg"
@@ -190,7 +205,7 @@
               rel="noopener"
               class="place__link"
               >Facebook
-            </a>           
+            </a>
           </div>
           <img
             src="./sprint-3-images/place-altai.jpg"
@@ -223,7 +238,7 @@
               rel="noopener"
               class="place__link"
               >http://vk.com/baikalmile
-            </a>            
+            </a>
           </div>
           <img
             src="./sprint-3-images/place-winter-baikal.jpg"
@@ -281,24 +296,23 @@
         <a
           href="https://stampsy.com/na-elektrichkakh-do-baikala"
           target="_self"
-          class="cover__link">
+          class="cover__link"
+        >
+          <h2 class="cover__title">
+            До Байкала <br />
+            «на собаках»
+          </h2>
+          <p class="cover__subtitle">
+            По мотивам учебной темы о Транссибе — путешествие от столицы до
+            Байкала на электричках.
+          </p>
         </a>
-        <h2 class="cover__title">
-          До Байкала <br />
-          «на собаках»
-        </h2>
-        <p class="cover__subtitle">
-          По мотивам учебной темы о Транссибе — путешествие от столицы до
-          Байкала на электричках.
-        </p>
-        <div class="cover__background"></div>
-        <!-- <img src="./sprint-3-images/cover-trains.jpg" alt="Поезда на закате" class="cover__background"> -->
       </section>
     </main>
     <footer class="footer">
       <nav class="nav">
         <ul class="footer__links">
-          <li>
+          <li class="footer__list-item">
             <a
               href="https://yandex.ru/maps"
               target="_blank"
@@ -306,7 +320,7 @@
               >Карты
             </a>
           </li>
-          <li>
+          <li class="footer__list-item">
             <a
               href="https://yandex.ru/pogoda"
               target="_blank"
@@ -314,15 +328,15 @@
               >Погода
             </a>
           </li>
-          <li>
+          <li class="footer__list-item">
             <a
               href="https://rasp.yandex.ru"
               target="_blank"
               class="footer__link"
               >Расписание
-              </a>
+            </a>
           </li>
-          <li>
+          <li class="footer__list-item">
             <a
               href="https://calendar.yandex.ru"
               target="_blank"
@@ -330,7 +344,7 @@
               >Календарь
             </a>
           </li>
-          <li>
+          <li class="footer__list-item">
             <a
               href="https://travel.yandex.ru"
               target="_blank"

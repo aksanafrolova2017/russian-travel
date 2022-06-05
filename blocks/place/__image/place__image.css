@@ -1,22 +1,9 @@
 .place__image {
-    width: 100%;
-  }
-
-/* @media screen and (max-width: 1279px) {
-  .place__image {
-    
-  }
+  width: 100%;
 }
-
-@media screen and (max-width: 1023px) {
-  .place__image {
-    
-  }
-} */
 
 @media screen and (max-width: 767px) {
   .place__image {
-    width: calc(100% + 32px);
     justify-self: center;
     margin: 0 0 32px 0;
   }
